@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 ThemeData lightTheme = ThemeData.light();
 
@@ -12,7 +12,7 @@ ThemeData pinkTheme = lightTheme.copyWith(
       backgroundColor: Color(0xFFA6E0DE),
     ),
     textTheme: const TextTheme(
-      bodyText1: TextStyle(
+      displayMedium: TextStyle(
         color: Colors.black87,
       ),
     ));
@@ -30,7 +30,7 @@ ThemeData darkBlueTheme = ThemeData.dark().copyWith(
   primaryColor: const Color(0xFF1E1E2C),
   scaffoldBackgroundColor: const Color(0xFF2D2D44),
   textTheme: const TextTheme(
-    bodyText1: TextStyle(
+    displayMedium: TextStyle(
       color: Color(0xFF33E1Ed),
     ),
   ),

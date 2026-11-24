@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'dart:ui';
 import 'theme_switcher_clipper.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class ThemeSwitcherCircleClipper implements ThemeSwitcherClipper {
   const ThemeSwitcherCircleClipper();

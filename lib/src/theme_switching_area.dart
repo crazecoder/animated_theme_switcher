@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import 'clippers/theme_switcher_clipper_bridge.dart';
 import 'theme_provider.dart';
